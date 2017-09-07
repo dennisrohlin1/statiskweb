@@ -1,0 +1,96 @@
+@import url(https://fonts.googlepis.com/css/?family=Lato);
+/* body {
+	background-image: url("cafe.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	
+} */
+iframe {
+	border-width:5px;  border-style: solid; border-color: black;
+	width:25%; height: 30%;
+}
+.parallax {
+    /* The image used */
+    background-image: url("cafe.jpeg");
+
+    /* Set a specific height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	
+	background-color:rgba(0, 0, 0, 0.50);
+}
+
+#Cafenamn h1 {
+	float: center;
+	text-align: center;
+	padding: 5px;
+	color: white;
+	
+}
+#Cafenamn p {
+	text-align: center;
+	float: center;
+	color: white;
+}
+section {
+	background-color:rgba(0, 0, 0, 0.50);
+	width: 20%;
+}
+table {
+    list-style-type: none;
+	padding-left: 40px;
+	overflow: hidden;
+	border-spacing: 20px;
+	background: -webkit-linear-gradient(black, grey, 0, 0.50); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, grey, 0, 0.50); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, gray, 0, 0.50); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, grey, 0, 0.50); /* Standard syntax */
+}
+tr td {
+	color: white;	
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: -webkit-linear-gradient(black, grey, 0, 0.50); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, grey, 0, 0.50); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, gray, 0, 0.50); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(black, grey, 0, 0.50); /* Standard syntax */
+	width: 100%;
+}
+ul li {
+	float: left;
+}
+ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background: -webkit-linear-gradient(black, grey, 0, 0.50); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, grey, 0, 0.50); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, gray, 0, 0.50); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, grey, 0, 0.50); /* Standard syntax */
+}
+ul li a:hover{
+	background: orangered;
+}
+
+        *{
+            box-sizing: border-box;
+        }
+        html,
+        body{
+            width: 100%;
+			height: 100%;
+        }
